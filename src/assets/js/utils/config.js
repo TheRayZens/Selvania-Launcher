@@ -8,7 +8,7 @@ const fetch = require("node-fetch")
 let url = pkg.user ? `${pkg.url}/${pkg.user}` : pkg.url
 
 let config = `${url}/launcher/config-launcher/config.json`;
-let news = `${url}/launcher/news-launcher/assets/php/news/GetNews.php`;
+let news = `https://pokeuniverse.wstr.fr/api/rss`;
 
 class Config {
     GetConfig() {
@@ -23,6 +23,7 @@ class Config {
 
     async GetNews() {
         let rss = await fetch(news);
+        console.log(rss.status)
         if (rss.status === 200) {
             try {
                 let news = await rss.json();

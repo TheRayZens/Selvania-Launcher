@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "1.2.0",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "name": "pokeuniverse-launcher",
+    "preductname": "PokeUniverse Launcher",
+    "version": "1.0.0",
+    "description": "Launcher de PokeUniverse",
     "main": "src/app.js",
-    "author": "Luuxis",
-    "url": "http://craftdium.ml/launcherSelvania",
+    "author": "Luuxis edited by RayZens",
+    "url": "http://pokeuniverse.ouiweb.eu/",
     "engines": {
         "node": "^18.x.x"
     },
@@ -31,6 +31,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/TheRayZens/Selvania-Launcher"
     }
 }
