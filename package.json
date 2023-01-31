@@ -1,11 +1,11 @@
 {
     "name": "pokeuniverse-launcher",
     "preductname": "PokeUniverse Launcher",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Launcher de PokeUniverse",
     "main": "src/app.js",
     "author": "Luuxis edited by RayZens",
-    "url": "http://pokeuniverse.ouiweb.eu/",
+    "url": "https://pokeuniverse.wstr.fr/launcher/",
     "engines": {
         "node": "^18.x.x"
     },

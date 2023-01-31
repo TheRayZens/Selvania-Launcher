@@ -161,6 +161,7 @@ class Home {
                 let hours = Math.floor(time / 3600);
                 let minutes = Math.floor((time - hours * 3600) / 60);
                 let seconds = Math.floor(time - hours * 3600 - minutes * 60);
+                document.querySelector(".text-downloadfile").innerHTML = `${hours}h ${minutes}m ${seconds}s`
                 console.log(`${hours}h ${minutes}m ${seconds}s`);
             })
 

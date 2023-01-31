@@ -77,7 +77,7 @@
 
 .download-content {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -88,6 +88,10 @@
 }
 
 .text-download {
+    font-size: 15px;
+}
+
+.text-downloadfile {
     font-size: 15px;
 }
 
