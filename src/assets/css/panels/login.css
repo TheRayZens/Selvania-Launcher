@@ -34,6 +34,12 @@
     box-shadow: 0 0 5px #006e47;
 }
 
+.disabled{
+    text-align: center;
+    display: block;
+    visibility: hidden;
+}
+
 .login-type-btn:disabled {
     background-color: #00bd7a;
     box-shadow: 0 0 5px #00bd7a;
